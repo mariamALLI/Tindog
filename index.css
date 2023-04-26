@@ -1,0 +1,150 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size:  1.125em;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000814;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+header,
+main {
+    background-color: #000814;
+    border-left: 5px solid #E82D70;
+    border-right: 5px solid #E82D70;
+    
+}
+
+header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 5px solid #E82D70;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1.5rem;
+    margin-bottom: -2rem;
+}
+
+.icons {
+    width: 60px;
+}
+
+.logo {
+    width: 95px;
+}
+
+.avatar {
+   border: 2px solid #E82D70;
+   border-radius: 50%;
+   margin-left: -2rem;
+}
+
+.chat {
+    margin-right: -2rem;
+}
+
+.dog_pic {
+   position: relative;
+}
+
+.dog_profile {
+    width: 95%;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+}
+
+.dog_info {
+    line-height: 0.7;
+    position: absolute;
+    top: 24rem;
+    left: 1rem;
+}
+
+.dog_info h1 {
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.dog_info p {
+    font-size: 0.6em;
+    font-weight: 200;
+    color: #B7B7B7;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#like,
+#nope {
+    width: 100px;
+    position: absolute;
+    transform: rotate(329deg);
+}
+
+#like {
+    top: 3.5rem;
+    left: 1rem;
+    display: none;
+}
+
+#nope {
+    top: 4.5rem;
+    left: 0.9rem;
+    display: none;
+}
+
+.display_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -2rem;
+}
+
+button {
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.heart,
+.cross {
+    width: 35px;
+}
+
+.cross:hover {
+    background-color: #FFE7EF;
+    padding: 0.5rem;
+    border-radius: 50px;
+    width: 15vw;
+}
+
+.heart:hover {
+    background-color: #DBFFF4;
+    padding: 0.5rem;
+    border-radius: 50px;
+    width: 15vw;
+}
