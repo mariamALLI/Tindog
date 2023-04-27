@@ -11,13 +11,6 @@ body {
    
 }
 
-@media (min-width: 800px){
-    body {
-        width: 50%;
-        margin: 0 auto;
-    }
-}
-
 .container {
     width: 90%;
     max-width: 800px;
@@ -155,4 +148,17 @@ button {
     padding: 0.5rem;
     border-radius: 50px;
     width: 15vw;
+}
+
+@media (min-width: 800px){
+    body {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .cross:hover,
+    .heart:hover{
+        width: 5vw;
+    }
+
 }
