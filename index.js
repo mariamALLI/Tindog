@@ -27,7 +27,7 @@ function likeBtn(){
                 renderProfile()
                 !hasBeenSwiped
                 document.getElementById('like').style.display = 'none'
-            },1500)
+            },2500)
         }
         
     }
@@ -47,7 +47,7 @@ function dislikeBtn(){
                 renderProfile()
                 hasBeenSwiped
                 document.getElementById('nope').style.display = 'none'
-            },2000)
+            },1500)
         }
     }
 }

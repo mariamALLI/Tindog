@@ -73,6 +73,7 @@ main {
     border-radius: 10px;
     margin-left: 0.5rem;
     margin-top: 2rem;
+    margin-bottom: -2rem;
 }
 
 .dog_info {
@@ -117,7 +118,8 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: -2rem;
+    margin-top: -4rem;
+    margin-bottom: -2rem;
 }
 
 button {
